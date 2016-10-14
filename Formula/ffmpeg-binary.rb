@@ -1,7 +1,7 @@
 class FfmpegBinary < Formula
     desc "FFmpeg Static Builds."
     homepage "http://johnvansickle.com/ffmpeg/"
-    version :latest
+    version "latest"
     sha256 :no_check
 
     if MacOS.prefer_64_bit?

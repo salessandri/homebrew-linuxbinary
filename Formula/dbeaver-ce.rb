@@ -1,7 +1,7 @@
 class DbeaverCe < Formula
     desc "Dbeaver Community version. Free multi-platform database tool for developers, SQL programmers, database administrators and analysts."
     homepage "http://dbeaver.jkiss.org/"
-    version :latest
+    version "latest"
     sha256 :no_check
 
     if MacOS.prefer_64_bit?

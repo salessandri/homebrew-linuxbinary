@@ -1,7 +1,7 @@
 class Teamviewer < Formula
     desc "Remote support, remote access, and online meeting software that the world relies on."
     homepage "http://www.teamviewer.com/"
-    version :latest
+    version "latest"
     sha256 :no_check
 
     url "http://download.teamviewer.com/download/teamviewer_i386.tar.xz"

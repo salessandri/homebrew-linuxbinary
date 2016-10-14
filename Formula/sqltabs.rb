@@ -1,7 +1,7 @@
 class Sqltabs < Formula
     desc "SQL Tabs is an open source cross platform desktop client for postgresql."
     homepage "http://www.sqltabs.com/"
-    version :latest
+    version "latest"
     sha256 :no_check
 
     url "http://www.sqltabs.com/download/sqltabs.tar.gz"
