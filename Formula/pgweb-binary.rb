@@ -1,14 +1,14 @@
 class PgwebBinary < Formula
     desc "Cross-platform client for PostgreSQL databases, binary installation."
-    homepage "http://sosedoff.github.io/pgweb"
-    version "0.9.1"
+    homepage "https://sosedoff.github.io/pgweb"
+    version "0.9.5"
 
     if MacOS.prefer_64_bit?
         url "https://github.com/sosedoff/pgweb/releases/download/v#{version}/pgweb_linux_amd64.zip"
-        sha256 "0f402db6862e8998292fbbabffe36bea4a046c76eb57ea891d89fadd286c3009"
+        sha256 "37a1b206c548bbd1a558843d38f27040e34afdbbc3ecb7a05aa2dc825c93dbf5"
     else
         url "https://github.com/sosedoff/pgweb/releases/download/v#{version}/pgweb_linux_386.zip"
-        sha256 "6bafa26dab6d79e6e5f288306164c6894e3ac86233c11be44da6dcc21f031c1b"
+        sha256 "63e4f0a509b7f90140ea404d65da493a3f8e1aabc094d6830e28ea4d708efdf5"
     end
 
     bottle :unneeded
