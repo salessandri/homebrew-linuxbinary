@@ -19,4 +19,4 @@ install:
     - "brew update"
 
 script:
-    - "brew audit --strict --online $TRAVIS_BUILD_DIR/Formula/*"
+    - "brew audit --online $TRAVIS_BUILD_DIR/Formula/*"
