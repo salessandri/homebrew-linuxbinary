@@ -19,4 +19,5 @@ install:
     - "brew update"
 
 script:
+    - "chmod 644 $TRAVIS_BUILD_DIR/Formula/*"
     - "brew audit --online $TRAVIS_BUILD_DIR/Formula/*"
