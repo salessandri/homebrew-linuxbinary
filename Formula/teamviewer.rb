@@ -3,9 +3,7 @@ class Teamviewer < Formula
     homepage "http://www.teamviewer.com/"
     version "latest"
     sha256 :no_check
-
     url "http://download.teamviewer.com/download/teamviewer_i386.tar.xz"
-
     bottle :unneeded
 
     def install
